@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>BMICalculatorSeleniumTests</RootNamespace>
+    <IsPackable>false</IsPackable>
+	<!--<Target Name="CopyChromeDriverToBin" BeforeTargets="AfterBuild">
+    <Copy SourceFiles="$(ChromeDriverSrcPath)" DestinationFiles="$(TargetDir)$(ChromeDriverName)" SkipUnchangedFiles="true">
+    </Copy>
+  </Target>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="79.0.3945.3600" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMICalculator\BMICalculator.csproj" />
+  </ItemGroup>
+
+</Project>
