@@ -5,7 +5,7 @@
 
 # ASP.NET Core MVC application 
 
-Sample ASP.NET Core MVC application, simple Unit Test built using Visual Studio 2017.
+Sample ASP.NET Core MVC application, simple Azure Pipeline.
 
 ## License:
 See [LICENSE](LICENSE).
