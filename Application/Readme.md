@@ -1,11 +1,11 @@
 | Language | Framework | Platform | Author |
 | -------- | -------- |--------|--------|
-| ASP.NET Core | .NET Core 2.2 | Azure Web App, Virtual Machines |
+| ASP.NET Core | .NET Core 2.2 | Azure Web App, Virtual Machines, UnitTests |clorofilla
 
 
 # ASP.NET Core MVC application 
 
-Sample ASP.NET Core MVC application built using Visual Studio 2017.
+Sample ASP.NET Core MVC application, simple Unit Test built using Visual Studio 2017.
 
 ## License:
 See [LICENSE](LICENSE).
